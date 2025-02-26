@@ -31,7 +31,7 @@ noButton.addEventListener("click", function () {
   clickCount++;
 
   // 让 Yes 变大，每次放大 2 倍
-  let yesSize = 1 + clickCount * 1.4;
+  let yesSize = 1 + clickCount * 2;
   yesButton.style.transform = `scale(${yesSize})`;
 
   // 挤压 No 按钮，每次右移 50px
